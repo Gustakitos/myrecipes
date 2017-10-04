@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7801787d-41c8-4d41-9f82-d002f7285626" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/chef.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/recipe.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/recipe_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/f49791ba-c884-45da-9a84-af3cbc211a9c/_metadata_/metadata_i.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/chef_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/chef.rb" afterPath="$PROJECT_DIR$/app/models/chef.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -27,31 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="chef.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chef.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/chef.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+            <state relative-caret-position="27">
+              <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipe.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
+      <file leaf-file-name="chef_test.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/models/chef_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recipe_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/recipe_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="776">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html Erb File" />
-        <option value="Ruby Class Template" />
         <option value="Ruby File Template" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -94,10 +77,11 @@
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20171004163811_create_recipes.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20171004170314_create_chefs.rb" />
-        <option value="$PROJECT_DIR$/app/models/chef.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20171004175155_change_column_in_recipes.rb" />
         <option value="$PROJECT_DIR$/test/models/recipe_test.rb" />
         <option value="$PROJECT_DIR$/app/models/recipe.rb" />
+        <option value="$PROJECT_DIR$/test/models/chef_test.rb" />
+        <option value="$PROJECT_DIR$/app/models/chef.rb" />
       </list>
     </option>
   </component>
@@ -440,12 +424,12 @@
       <workItem from="1507067134366" duration="775000" />
       <workItem from="1507078318274" duration="4563000" />
       <workItem from="1507130314544" duration="1197000" />
-      <workItem from="1507135069500" duration="3192000" />
+      <workItem from="1507135069500" duration="5532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24461000" />
+    <option name="totallyTimeSpent" value="26801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="1" />
@@ -744,14 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/chef.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/minitest-5.10.3/lib/minitest/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -760,18 +736,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/recipe_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="1064">
           <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
+    <entry file="file://$PROJECT_DIR$/test/models/chef_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="776">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/chef.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
           <folding />
         </state>
       </provider>
