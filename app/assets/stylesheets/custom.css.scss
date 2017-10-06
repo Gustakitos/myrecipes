@@ -43,11 +43,27 @@ $navbar-default-bg: #073B15;
   font-weight: bold;
 }
 
-.btn-xlarge{
+.btn-xlarge {
   background-color: #073B15;
 }
 
-.btn-xlarge:hover{
+.btn-xlarge:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.well a {
+  color: #073B15;
+}
+
+.chef_info{
+  margin-top: 10px;
+}
+
+.colormatch a {
+  color: #073B15;
 }
