@@ -8,4 +8,7 @@ Rails.application.routes.draw do
   # post '/recipes', to: 'recipes#create'
 
   resources :recipes
+
+  get '/signup', to: 'chefs#new'
+  resources :chefs, except: [:new]
 end
