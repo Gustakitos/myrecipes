@@ -12,6 +12,10 @@
             <small>
               <%= pluralize(chef.recipes.count,"recipe") if chef.recipes %>
             </small>
+            <li>
+                <%= link_to "Delete this chef",chef_path(chef),method: :delete,
+                    data:{confirm: "Are you sure you want to delete the chef and all associated recipes?"}%>
+            </li>
           </li>
         </div>
       </div>
