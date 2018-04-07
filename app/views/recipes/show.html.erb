@@ -5,6 +5,13 @@
     <strong>Steps:</strong>
   </h4>
   <hr/>
+
+  <% if @recipe.ingredients.any? %>
+    <p>
+      Ingredients:
+      <%= render @recipe.ingredients %>
+    </p>
+  <%end%>
   <%= simple_format(@recipe.description) %>
   <hr/>
   <div class="pull-right">
@@ -13,7 +20,7 @@
     </p>
 
     <p class="center">
-      <%= link_to gravatar_for(@recipe.chef), recipes_path %>
+      <%= link_to gravatar_for(@recipe.chef), chef_url(@recipe.chef) %>
     </p>
 
     <p class="center">
