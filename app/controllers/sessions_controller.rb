@@ -9,6 +9,7 @@ class SessionsController < ApplicationController
 
     if (chef && chef.authenticate(params[:session][:password]))
       session[:chef_id] = chef.id
+      cookies.signed[:chef_id] = chef.id
       flash[:sucess] = "You have successfully logged in"
       redirect_to chef
     else
